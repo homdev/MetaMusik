@@ -2,25 +2,16 @@ import { NavItemType } from "shared/Navigation/NavigationItem";
 import ncNanoId from "utils/ncNanoId";
 
 const otherPageChildMenus: NavItemType[] = [
+
   {
     id: ncNanoId(),
     href: "/",
-    name: "Home Demo 1",
-  },
-  {
-    id: ncNanoId(),
-    href: "/home2",
-    name: "Home Demo 2",
-  },
-  {
-    id: ncNanoId(),
-    href: "/home3",
-    name: "Home Demo 3",
+    name: "Accueil",
   },
   {
     id: ncNanoId(),
     href: "/page-collection",
-    name: "Collection page",
+    name: "Collections",
   },
   {
     id: ncNanoId(),
@@ -30,7 +21,7 @@ const otherPageChildMenus: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/page-author",
-    name: "Author Profile",
+    name: "Profil Artiste",
   },
   {
     id: ncNanoId(),
@@ -40,17 +31,17 @@ const otherPageChildMenus: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/account",
-    name: "Account settings",
+    name: "Paramètre de compte",
   },
   {
     id: ncNanoId(),
     href: "/page-upload-item",
-    name: "Upload Item",
+    name: "Publier un NFT",
   },
   {
     id: ncNanoId(),
     href: "/connect-wallet",
-    name: "Connect Wallet",
+    name: "Connexion Wallet",
   },
 
   {
@@ -62,34 +53,34 @@ const otherPageChildMenus: NavItemType[] = [
       {
         id: ncNanoId(),
         href: "/about",
-        name: "About",
+        name: "Notre Concept",
       },
       {
         id: ncNanoId(),
         href: "/contact",
-        name: "Contact us",
+        name: "Nous Contacter",
       },
       {
         id: ncNanoId(),
         href: "/login",
-        name: "Login",
+        name: "Se connecter",
       },
       {
         id: ncNanoId(),
         href: "/signup",
-        name: "Signup",
+        name: "S'inscrire",
       },
       {
         id: ncNanoId(),
         href: "/subscription",
-        name: "Subscription",
+        name: "Souscrire",
       },
     ],
   },
   {
     id: ncNanoId(),
     href: "/blog",
-    name: "Blog Page",
+    name: "Blog",
     type: "dropdown",
     children: [
       {
@@ -100,7 +91,7 @@ const otherPageChildMenus: NavItemType[] = [
       {
         id: ncNanoId(),
         href: "/blog-single",
-        name: "Blog Single",
+        name: "Article",
       },
     ],
   },
@@ -110,13 +101,13 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/",
-    name: "Discover",
+    name: "Découvrez",
     type: "dropdown",
     children: otherPageChildMenus,
   },
   {
     id: ncNanoId(),
     href: "/page-upload-item",
-    name: "Help center",
+    name: "Centre d'aide",
   },
 ];

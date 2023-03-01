@@ -5,7 +5,7 @@ import NcImage from "shared/NcImage/NcImage";
 import CardNFT from "components/CardNFT";
 import Pagination from "shared/Pagination/Pagination";
 import ButtonPrimary from "shared/Button/ButtonPrimary";
-import authorBanner from "images/nfts/authorBanner.png";
+import authorBanner from "images/nfts/authorBanner2.jpg";
 import { nftsImgs } from "contains/fakeData";
 import NftMoreDropdown from "components/NftMoreDropdown";
 import ButtonDropDownShare from "components/ButtonDropDownShare";

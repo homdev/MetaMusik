@@ -64,7 +64,7 @@ const MainNav2Logged: FC<MainNav2LoggedProps> = () => {
               href="/page-upload-item"
               sizeClass="px-4 py-2 sm:px-5"
             >
-              Create
+              Créer
             </ButtonPrimary>
             <div></div>
             <AvatarDropdown />
